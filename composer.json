@@ -19,11 +19,9 @@
         }
     ],
     "minimum-stability": "stable",
-
+    "prefer-stable": true,
     "extra": {
-        "branch-alias": {
-            "dev-master": "2.15-dev"
-        },
+        
         "laravel": {
             "providers": [
                 "Kanchdev\\LaravelWorker\\CronJobServiceProvider"
