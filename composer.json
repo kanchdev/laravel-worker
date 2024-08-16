@@ -1,0 +1,22 @@
+{
+    "name": "kanchdev/laravel-worker",
+    "description": "Execute Jobs in Queue from an artisan command executed through a Cron Job",
+    "type": "library",
+    "require": {
+        "laravel/framework": "^8.0|^9.0|^10.0|^11.0"
+    },
+    "license": "GPL",
+    "autoload": {
+        "psr-4": {
+            "Kanchdev\\LaravelWorker\\": "src/"
+        }
+
+    },
+    "authors": [
+        {
+            "name": "Kanchana Lakmal",
+            "email": "hmklakmal@hotmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
