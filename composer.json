@@ -18,5 +18,16 @@
             "email": "hmklakmal@hotmail.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.15-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Kanchdev\\LaravelWorker\\CronJobServiceProvider"
+            ]
+        }
+    }
 }

@@ -8,6 +8,8 @@ use Kanchdev\LaravelWorker\CronJobWorker;
 use Illuminate\Queue\QueueServiceProvider;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Contracts\Foundation\Application;
+use Kanchdev\LaravelWorker\Console\CronJobWorkCommand;
+
 
 class CronJobServiceProvider extends QueueServiceProvider
 {
